@@ -19,15 +19,8 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FirstVC~" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H7o-43-Dlh">
-                    <rect key="frame" x="142" y="101" width="130" height="41"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OC5-Hs-RIz">
-                    <rect key="frame" x="82" y="424" width="255" height="51"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OC5-Hs-RIz">
+                    <rect key="frame" x="80" y="424" width="255" height="51"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="gray" title="SecondVC로 ㄱㄱ">
                         <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
@@ -36,15 +29,24 @@
                         <action selector="transitionToSecondVCDidTap:" destination="-1" eventType="touchUpInside" id="cgK-WS-mv6"/>
                     </connections>
                 </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FirstVC~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H7o-43-Dlh">
+                    <rect key="frame" x="110" y="95" width="195" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemGray6Color"/>
             <constraints>
-                <constraint firstItem="H7o-43-Dlh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="142" id="LQY-en-b8d"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="H7o-43-Dlh" secondAttribute="trailing" constant="142" id="aPJ-vK-aEV"/>
-                <constraint firstItem="H7o-43-Dlh" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="57" id="waC-6h-ZoD"/>
+                <constraint firstItem="OC5-Hs-RIz" firstAttribute="top" secondItem="H7o-43-Dlh" secondAttribute="bottom" constant="299" id="INO-Px-Jlh"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="H7o-43-Dlh" secondAttribute="trailing" constant="109" id="POD-ri-Rw3"/>
+                <constraint firstItem="OC5-Hs-RIz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="80" id="UR9-Lt-G4g"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OC5-Hs-RIz" secondAttribute="trailing" constant="79" id="dzw-TD-GLE"/>
+                <constraint firstItem="H7o-43-Dlh" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="51" id="e02-qt-jQs"/>
+                <constraint firstItem="H7o-43-Dlh" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="110" id="xv2-9P-fDL"/>
             </constraints>
-            <point key="canvasLocation" x="132" y="50"/>
+            <point key="canvasLocation" x="131.8840579710145" y="49.553571428571423"/>
         </view>
     </objects>
     <resources>

@@ -18,9 +18,9 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ThirdVC~" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKI-3j-KuV">
-                    <rect key="frame" x="136" y="101" width="142" height="41"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ThirdVC~" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKI-3j-KuV">
+                    <rect key="frame" x="78" y="95" width="258" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -28,9 +28,9 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.7725490196" green="0.7843137255" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
-                <constraint firstItem="LKI-3j-KuV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="57" id="K0u-uD-eyr"/>
-                <constraint firstItem="LKI-3j-KuV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="136" id="K3e-lj-VCu"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LKI-3j-KuV" secondAttribute="trailing" constant="136" id="Y7n-t7-zIk"/>
+                <constraint firstItem="LKI-3j-KuV" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="51" id="H6U-Fr-Bxx"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LKI-3j-KuV" secondAttribute="trailing" constant="78" id="Lz3-Un-HtN"/>
+                <constraint firstItem="LKI-3j-KuV" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="78" id="t2P-tR-FZZ"/>
             </constraints>
             <point key="canvasLocation" x="131.8840579710145" y="49.553571428571423"/>
         </view>
