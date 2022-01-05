@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EasyKit",
+        "repositoryURL": "https://github.com/Taehyeon-Kim/EasyKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "846fc8c7ec60b24bf38ea5f3f8ab4b84d5d73244",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
