@@ -9,7 +9,14 @@ import UIKit
 
 class SecondVC: UIViewController {
 
+    // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    // MARK: - @IBAction Properties
+    @IBAction func transitionToThridVCDidTap(_ sender: Any) {
+        let thridVC = ThirdVC.instanceFromNib()
+        self.present(thridVC, animated: true)
     }
 }

@@ -32,6 +32,9 @@
                     <buttonConfiguration key="configuration" style="gray" title="SecondVC로 ㄱㄱ">
                         <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="transitionToSecondVCDidTap:" destination="-1" eventType="touchUpInside" id="cgK-WS-mv6"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

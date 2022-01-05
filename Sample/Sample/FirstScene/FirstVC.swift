@@ -7,9 +7,18 @@
 
 import UIKit
 
-class FirstVC: UIViewController {
+import EasyKit
 
+class FirstVC: UIViewController {
+    
+    // MARK: - View Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    // MARK: - @IBAction Properties
+    @IBAction func transitionToSecondVCDidTap(_ sender: Any) {
+        let secondVC = SecondVC.instanceFromNib()
+        navigationController?.pushViewController(secondVC, animated: true)
     }
 }
