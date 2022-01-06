@@ -9,7 +9,7 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
 
-    static let identifier = "TableViewCell"
+//    static let identifier = "TableViewCell"
     
     override func awakeFromNib() {
         super.awakeFromNib()

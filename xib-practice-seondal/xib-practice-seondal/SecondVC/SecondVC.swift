@@ -16,8 +16,10 @@ class SecondVC: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         
-        let nib = UINib(nibName: TableViewCell.identifier, bundle: nil)
-        tableView.register(nib, forCellReuseIdentifier: TableViewCell.identifier)
+//        let nib = UINib(nibName: TableViewCell.identifier, bundle: nil)
+//        tableView.register(nib, forCellReuseIdentifier: TableViewCell.identifier)
+        
+        tableView.register(TableViewCell.self)
     }
 
     /*
@@ -42,8 +44,10 @@ extension SecondVC : UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: TableViewCell.identifier, for: indexPath) as? TableViewCell else {return UITableViewCell()}
-        
+//        guard let cell = tableView.dequeueReusableCell(withIdentifier: TableViewCell.identifier, for: indexPath) as? TableViewCell else {return UITableViewCell()}
+//
+//        return cell
+        let cell = tableView.dequeueReusableCell(for: indexPath, cellType: TableViewCell.self)
         return cell
     }
     
