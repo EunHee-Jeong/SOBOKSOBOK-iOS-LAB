@@ -17,6 +17,8 @@
 		9A33566A2786C045004C1B07 /* FirstVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3356682786C044004C1B07 /* FirstVC.xib */; };
 		9A33566F2786C14C004C1B07 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A33566D2786C14C004C1B07 /* SecondVC.swift */; };
 		9A3356702786C14C004C1B07 /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A33566E2786C14C004C1B07 /* SecondVC.xib */; };
+		9A3356742786C205004C1B07 /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3356722786C205004C1B07 /* ThirdVC.swift */; };
+		9A3356752786C205004C1B07 /* ThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3356732786C205004C1B07 /* ThirdVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		9A3356682786C044004C1B07 /* FirstVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstVC.xib; sourceTree = "<group>"; };
 		9A33566D2786C14C004C1B07 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		9A33566E2786C14C004C1B07 /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
+		9A3356722786C205004C1B07 /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
+		9A3356732786C205004C1B07 /* ThirdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				9A3356572786BF4E004C1B07 /* ViewController.swift */,
 				9A33566C2786C060004C1B07 /* FirstVC */,
 				9A3356712786C157004C1B07 /* SecondVC */,
+				9A3356772786C221004C1B07 /* ThirdVC */,
 				9A3356592786BF4E004C1B07 /* Main.storyboard */,
 				9A33565C2786BF50004C1B07 /* Assets.xcassets */,
 				9A33565E2786BF50004C1B07 /* LaunchScreen.storyboard */,
@@ -92,6 +97,16 @@
 				9A33566D2786C14C004C1B07 /* SecondVC.swift */,
 				9A33566E2786C14C004C1B07 /* SecondVC.xib */,
 			);
+			path = SecondVC;
+			sourceTree = "<group>";
+		};
+		9A3356772786C221004C1B07 /* ThirdVC */ = {
+			isa = PBXGroup;
+			children = (
+				9A3356722786C205004C1B07 /* ThirdVC.swift */,
+				9A3356732786C205004C1B07 /* ThirdVC.xib */,
+			);
+			name = ThirdVC;
 			path = SecondVC;
 			sourceTree = "<group>";
 		};
@@ -157,6 +172,7 @@
 				9A3356602786BF50004C1B07 /* LaunchScreen.storyboard in Resources */,
 				9A33566A2786C045004C1B07 /* FirstVC.xib in Resources */,
 				9A33565D2786BF50004C1B07 /* Assets.xcassets in Resources */,
+				9A3356752786C205004C1B07 /* ThirdVC.xib in Resources */,
 				9A33565B2786BF4E004C1B07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A3356742786C205004C1B07 /* ThirdVC.swift in Sources */,
 				9A3356582786BF4E004C1B07 /* ViewController.swift in Sources */,
 				9A33566F2786C14C004C1B07 /* SecondVC.swift in Sources */,
 				9A3356692786C044004C1B07 /* FirstVC.swift in Sources */,
