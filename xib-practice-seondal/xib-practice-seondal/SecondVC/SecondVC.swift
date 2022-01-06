@@ -9,12 +9,16 @@ import UIKit
 
 class SecondVC: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        tableView.dataSource = self
+        tableView.delegate = self
+        
+        let nib = UINib(nibName: TableViewCell.identifier, bundle: nil)
+        tableView.register(nib, forCellReuseIdentifier: TableViewCell.identifier)
     }
-
 
     /*
     // MARK: - Navigation
@@ -26,4 +30,21 @@ class SecondVC: UIViewController {
     }
     */
 
+}
+
+extension SecondVC : UITableViewDelegate{
+    
+}
+
+extension SecondVC : UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: TableViewCell.identifier, for: indexPath) as? TableViewCell else {return UITableViewCell()}
+        
+        return cell
+    }
+    
 }

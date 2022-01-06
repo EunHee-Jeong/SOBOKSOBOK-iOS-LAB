@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondVC" customModule="xib_practice_seondal" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="eFJ-mX-eZU" id="QU5-Zb-Uc7"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,26 +19,46 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SecondVC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctu-m3-4th">
-                    <rect key="frame" x="167" y="234" width="81" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SecondVC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctu-m3-4th">
+                    <rect key="frame" x="167" y="115" width="81" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySk-Fn-nDH">
-                    <rect key="frame" x="140" y="387" width="135" height="31"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySk-Fn-nDH">
+                    <rect key="frame" x="0.0" y="136" width="414" height="31"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="tinted" title="Move To ThirdVC"/>
                 </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="eFJ-mX-eZU">
+                    <rect key="frame" x="0.0" y="167" width="414" height="695"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemIndigoColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ySk-Fn-nDH" secondAttribute="trailing" id="1WR-Kb-afp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="eFJ-mX-eZU" secondAttribute="trailing" id="3Nq-Cf-PrE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ctu-m3-4th" secondAttribute="trailing" constant="166" id="3db-uV-IzZ"/>
+                <constraint firstItem="eFJ-mX-eZU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="AAv-E6-XpS"/>
+                <constraint firstItem="ctu-m3-4th" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="71" id="Bhq-HY-oUI"/>
+                <constraint firstItem="eFJ-mX-eZU" firstAttribute="top" secondItem="ySk-Fn-nDH" secondAttribute="bottom" id="GuA-cb-No1"/>
+                <constraint firstItem="ySk-Fn-nDH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Kds-si-bBT"/>
+                <constraint firstItem="ySk-Fn-nDH" firstAttribute="top" secondItem="ctu-m3-4th" secondAttribute="bottom" id="cPM-GW-8M5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="eFJ-mX-eZU" secondAttribute="bottom" id="cjE-CU-zwv"/>
+                <constraint firstItem="eFJ-mX-eZU" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="iOu-Xi-Py0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="eFJ-mX-eZU" secondAttribute="bottom" id="uE2-Ck-QKz"/>
+                <constraint firstItem="ctu-m3-4th" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="167" id="vKD-le-Oeh"/>
+                <constraint firstItem="eFJ-mX-eZU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="vvN-Vc-CeC"/>
+            </constraints>
             <point key="canvasLocation" x="139" y="100"/>
         </view>
     </objects>
     <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
