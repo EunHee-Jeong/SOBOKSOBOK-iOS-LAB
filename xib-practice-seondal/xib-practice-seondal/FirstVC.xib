@@ -10,7 +10,6 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FirstVC" customModule="xib_practice_seondal" customModuleProvider="target">
             <connections>
-                <outlet property="MoveToFirstVC" destination="7F3-Fc-SGu" id="4mg-bv-Wdi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

@@ -44,6 +44,7 @@ extension SecondVC : UITableViewDataSource {
 //        guard let cell = tableView.dequeueReusableCell(withIdentifier: TableViewCell.identifier, for: indexPath) as? TableViewCell else {return UITableViewCell()}
 //
 //        return cell
+        
         let cell = tableView.dequeueReusableCell(for: indexPath, cellType: TableViewCell.self)
         return cell
     }

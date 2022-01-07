@@ -9,17 +9,17 @@ import UIKit
 
 class FirstVC: UIViewController {
 
-    @IBOutlet weak var MoveToSecondVC: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func MoveToSecondVC(_ sender: Any) {
+        
+//        let navigationController = UINavigationController(rootViewController: self)
+        
         let secondVC = SecondVC.instanceFromNib()
-        navigationController?.pushViewController(secondVC, animated: true)
+//        navigationController.pushViewController(secondVC, animated: true)
+        present(secondVC, animated: true, completion: nil)
     }
     
 }
