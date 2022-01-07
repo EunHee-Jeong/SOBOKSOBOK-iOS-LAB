@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondVC" customModule="xib_practice_seondal" customModuleProvider="target">
             <connections>
+                <outlet property="MoveToThirdVC" destination="ySk-Fn-nDH" id="EhL-9F-9fZ"/>
                 <outlet property="tableView" destination="eFJ-mX-eZU" id="QU5-Zb-Uc7"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -29,6 +30,9 @@
                     <rect key="frame" x="0.0" y="136" width="414" height="31"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="tinted" title="Move To ThirdVC"/>
+                    <connections>
+                        <action selector="MoveToThirdVC:" destination="-1" eventType="touchUpInside" id="0Hk-8G-im2"/>
+                    </connections>
                 </button>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="eFJ-mX-eZU">
                     <rect key="frame" x="0.0" y="167" width="414" height="695"/>
