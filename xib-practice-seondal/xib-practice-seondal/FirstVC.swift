@@ -18,8 +18,8 @@ class FirstVC: UIViewController {
 //        let navigationController = UINavigationController(rootViewController: self)
         
         let secondVC = SecondVC.instanceFromNib()
-//        navigationController.pushViewController(secondVC, animated: true)
-        present(secondVC, animated: true, completion: nil)
+        navigationController?.pushViewController(secondVC, animated: true)
+//        present(secondVC, animated: true, completion: nil)
     }
     
 }
