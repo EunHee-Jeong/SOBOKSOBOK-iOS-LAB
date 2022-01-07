@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9A12FC502786DDF0005E9A32 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12FC4F2786DDF0005E9A32 /* BaseViewController.swift */; };
+		9A12FC532786DECC005E9A32 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12FC512786DECC005E9A32 /* CollectionViewCell.swift */; };
+		9A12FC542786DECC005E9A32 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A12FC522786DECC005E9A32 /* CollectionViewCell.xib */; };
 		9A3356542786BF4E004C1B07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3356532786BF4E004C1B07 /* AppDelegate.swift */; };
 		9A3356562786BF4E004C1B07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3356552786BF4E004C1B07 /* SceneDelegate.swift */; };
 		9A3356582786BF4E004C1B07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3356572786BF4E004C1B07 /* ViewController.swift */; };
@@ -26,6 +28,8 @@
 
 /* Begin PBXFileReference section */
 		9A12FC4F2786DDF0005E9A32 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9A12FC512786DECC005E9A32 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		9A12FC522786DECC005E9A32 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		9A3356502786BF4E004C1B07 /* xib-practice-seondal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "xib-practice-seondal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A3356532786BF4E004C1B07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A3356552786BF4E004C1B07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 			children = (
 				9A3356722786C205004C1B07 /* ThirdVC.swift */,
 				9A3356732786C205004C1B07 /* ThirdVC.xib */,
+				9A12FC512786DECC005E9A32 /* CollectionViewCell.swift */,
+				9A12FC522786DECC005E9A32 /* CollectionViewCell.xib */,
 			);
 			name = ThirdVC;
 			path = SecondVC;
@@ -183,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A3356702786C14C004C1B07 /* SecondVC.xib in Resources */,
+				9A12FC542786DECC005E9A32 /* CollectionViewCell.xib in Resources */,
 				9A3356802786D73B004C1B07 /* TableViewCell.xib in Resources */,
 				9A3356602786BF50004C1B07 /* LaunchScreen.storyboard in Resources */,
 				9A33566A2786C045004C1B07 /* FirstVC.xib in Resources */,
@@ -200,6 +207,7 @@
 			files = (
 				9A3356742786C205004C1B07 /* ThirdVC.swift in Sources */,
 				9A3356582786BF4E004C1B07 /* ViewController.swift in Sources */,
+				9A12FC532786DECC005E9A32 /* CollectionViewCell.swift in Sources */,
 				9A33566F2786C14C004C1B07 /* SecondVC.swift in Sources */,
 				9A3356692786C044004C1B07 /* FirstVC.swift in Sources */,
 				9A3356542786BF4E004C1B07 /* AppDelegate.swift in Sources */,
