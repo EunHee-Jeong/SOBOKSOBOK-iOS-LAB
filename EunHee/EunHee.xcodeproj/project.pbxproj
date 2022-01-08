@@ -20,6 +20,7 @@
 		F69CAA2C27897F800035230D /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA2A27897F800035230D /* SignUpViewController.xib */; };
 		F69CAA2F27897FB90035230D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA2D27897FB90035230D /* WelcomeViewController.swift */; };
 		F69CAA3027897FB90035230D /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA2E27897FB90035230D /* WelcomeViewController.xib */; };
+		F69CAA32278984780035230D /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA31278984780035230D /* SF-Pro-Display-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F69CAA2A27897F800035230D /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
 		F69CAA2D27897FB90035230D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		F69CAA2E27897FB90035230D /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		F69CAA31278984780035230D /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				F68945AD2788455300F22187 /* Assets.xcassets */,
+				F69CAA31278984780035230D /* SF-Pro-Display-Regular.otf */,
 			);
 			path = Assets.xcassets;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				F68945B12788455300F22187 /* LaunchScreen.storyboard in Resources */,
 				F69CAA2827897F730035230D /* SignInViewController.xib in Resources */,
 				F69CAA2C27897F800035230D /* SignUpViewController.xib in Resources */,
+				F69CAA32278984780035230D /* SF-Pro-Display-Regular.otf in Resources */,
 				F68945AE2788455300F22187 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
