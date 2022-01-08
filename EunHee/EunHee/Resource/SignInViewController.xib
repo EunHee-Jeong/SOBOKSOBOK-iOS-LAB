@@ -3,7 +3,6 @@
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -19,6 +18,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignInViewController" customModule="EunHee" customModuleProvider="target">
             <connections>
+                <outlet property="emailTextField" destination="Vap-eH-XRs" id="BGC-Az-dlb"/>
+                <outlet property="nameTextField" destination="5CO-t1-XAk" id="Acv-hn-HdT"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -100,6 +101,9 @@
                             </fragment>
                         </attributedString>
                     </state>
+                    <connections>
+                        <action selector="signUpButtonDidTapped:" destination="-1" eventType="touchUpInside" id="LRb-LZ-fld"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5t-tO-chl">
                     <rect key="frame" x="279" y="601.66666666666663" width="74" height="42"/>
@@ -111,6 +115,9 @@
                     <buttonConfiguration key="configuration" style="filled" title="다음">
                         <color key="baseBackgroundColor" name="4285F4"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="signInButtonDidTapped:" destination="-1" eventType="touchUpInside" id="d7h-g6-j08"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

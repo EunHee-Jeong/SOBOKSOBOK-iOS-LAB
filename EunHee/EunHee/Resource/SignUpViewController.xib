@@ -10,6 +10,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignUpViewController" customModule="EunHee" customModuleProvider="target">
             <connections>
+                <outlet property="emailTextField" destination="k4i-7l-Prw" id="ibN-1t-Y6P"/>
+                <outlet property="nameTextField" destination="k4i-7l-Prw" id="Wt6-JP-VQs"/>
+                <outlet property="passwordTextField" destination="GhM-rc-T0a" id="5px-J6-wcx"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -71,6 +74,9 @@
                     <buttonConfiguration key="configuration" style="filled" title="다음">
                         <color key="baseBackgroundColor" name="4285F4"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="nextButtonDidTapped:" destination="-1" eventType="touchUpInside" id="VDG-UE-PRl"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
