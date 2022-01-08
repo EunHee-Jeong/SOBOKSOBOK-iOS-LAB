@@ -13,6 +13,7 @@
 		F68945AE2788455300F22187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68945AD2788455300F22187 /* Assets.xcassets */; };
 		F68945B12788455300F22187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68945AF2788455300F22187 /* LaunchScreen.storyboard */; };
 		F68945BA278845A000F22187 /* EasyKit in Frameworks */ = {isa = PBXBuildFile; productRef = F68945B9278845A000F22187 /* EasyKit */; };
+		F69CAA2427897E360035230D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F69CAA2327897E360035230D /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F68945BA278845A000F22187 /* EasyKit in Frameworks */,
+				F69CAA2427897E360035230D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +134,7 @@
 			name = EunHee;
 			packageProductDependencies = (
 				F68945B9278845A000F22187 /* EasyKit */,
+				F69CAA2327897E360035230D /* Alamofire */,
 			);
 			productName = EunHee;
 			productReference = F68945A12788455100F22187 /* EunHee.app */;
@@ -163,6 +166,7 @@
 			mainGroup = F68945982788455100F22187;
 			packageReferences = (
 				F68945B8278845A000F22187 /* XCRemoteSwiftPackageReference "EasyKit" */,
+				F69CAA2227897E360035230D /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = F68945A22788455100F22187 /* Products */;
 			projectDirPath = "";
@@ -414,6 +418,14 @@
 				kind = branch;
 			};
 		};
+		F69CAA2227897E360035230D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -421,6 +433,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F68945B8278845A000F22187 /* XCRemoteSwiftPackageReference "EasyKit" */;
 			productName = EasyKit;
+		};
+		F69CAA2327897E360035230D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F69CAA2227897E360035230D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
