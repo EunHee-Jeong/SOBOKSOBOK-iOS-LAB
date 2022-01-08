@@ -77,6 +77,7 @@
 				F68945BB2788462000F22187 /* Application */,
 				F68945BC2788464B00F22187 /* Presentation */,
 				F68945BE2788467E00F22187 /* Resource */,
+				F69CAA392789CE3C0035230D /* Service */,
 				F68945C0278846A900F22187 /* Supports */,
 			);
 			path = EunHee;
@@ -95,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F68945BD2788465D00F22187 /* Common */,
+				F69CAA352789CDD00035230D /* Splash */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -103,9 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				F68945A82788455100F22187 /* BaseViewController.swift */,
-				F69CAA2527897F730035230D /* SignInViewController.swift */,
-				F69CAA2927897F800035230D /* SignUpViewController.swift */,
-				F69CAA2D27897FB90035230D /* WelcomeViewController.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -114,9 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				F68945AF2788455300F22187 /* LaunchScreen.storyboard */,
-				F69CAA2627897F730035230D /* SignInViewController.xib */,
-				F69CAA2A27897F800035230D /* SignUpViewController.xib */,
-				F69CAA2E27897FB90035230D /* WelcomeViewController.xib */,
+				F69CAA382789CE1E0035230D /* Font */,
 				F68945BF2788469A00F22187 /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -126,8 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				F68945AD2788455300F22187 /* Assets.xcassets */,
-				F69CAA31278984780035230D /* SF-Pro-Display-Regular.otf */,
-				F69CAA33278989070035230D /* SF-Pro-Display-Semibold.otf */,
 			);
 			path = Assets.xcassets;
 			sourceTree = "<group>";
@@ -138,6 +133,59 @@
 				F68945B22788455300F22187 /* Info.plist */,
 			);
 			path = Supports;
+			sourceTree = "<group>";
+		};
+		F69CAA352789CDD00035230D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F69CAA362789CDF90035230D /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F69CAA362789CDF90035230D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F69CAA2527897F730035230D /* SignInViewController.swift */,
+				F69CAA2927897F800035230D /* SignUpViewController.swift */,
+				F69CAA2D27897FB90035230D /* WelcomeViewController.swift */,
+				F69CAA2627897F730035230D /* SignInViewController.xib */,
+				F69CAA2A27897F800035230D /* SignUpViewController.xib */,
+				F69CAA2E27897FB90035230D /* WelcomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F69CAA382789CE1E0035230D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F69CAA31278984780035230D /* SF-Pro-Display-Regular.otf */,
+				F69CAA33278989070035230D /* SF-Pro-Display-Semibold.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F69CAA392789CE3C0035230D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F69CAA3A2789CE550035230D /* Network */,
+				F69CAA3B2789CE5B0035230D /* Result */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F69CAA3A2789CE550035230D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F69CAA3B2789CE5B0035230D /* Result */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Result;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
