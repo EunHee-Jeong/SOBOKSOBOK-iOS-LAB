@@ -22,6 +22,10 @@
 		F69CAA3027897FB90035230D /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA2E27897FB90035230D /* WelcomeViewController.xib */; };
 		F69CAA32278984780035230D /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA31278984780035230D /* SF-Pro-Display-Regular.otf */; };
 		F69CAA34278989070035230D /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA33278989070035230D /* SF-Pro-Display-Semibold.otf */; };
+		F69CAA3D2789CEE00035230D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA3C2789CEE00035230D /* APIConstants.swift */; };
+		F69CAA3F2789D03B0035230D /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA3E2789D03B0035230D /* NetworkResult.swift */; };
+		F69CAA412789D1D40035230D /* SignInResponseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA402789D1D40035230D /* SignInResponseDataModel.swift */; };
+		F69CAA432789D3F00035230D /* UserSignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA422789D3F00035230D /* UserSignInService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		F69CAA2E27897FB90035230D /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
 		F69CAA31278984780035230D /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
 		F69CAA33278989070035230D /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		F69CAA3C2789CEE00035230D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		F69CAA3E2789D03B0035230D /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		F69CAA402789D1D40035230D /* SignInResponseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInResponseDataModel.swift; sourceTree = "<group>"; };
+		F69CAA422789D3F00035230D /* UserSignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignInService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +185,8 @@
 		F69CAA3A2789CE550035230D /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				F69CAA3C2789CEE00035230D /* APIConstants.swift */,
+				F69CAA422789D3F00035230D /* UserSignInService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -184,6 +194,8 @@
 		F69CAA3B2789CE5B0035230D /* Result */ = {
 			isa = PBXGroup;
 			children = (
+				F69CAA3E2789D03B0035230D /* NetworkResult.swift */,
+				F69CAA402789D1D40035230D /* SignInResponseDataModel.swift */,
 			);
 			path = Result;
 			sourceTree = "<group>";
@@ -272,11 +284,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69CAA2727897F730035230D /* SignInViewController.swift in Sources */,
+				F69CAA3D2789CEE00035230D /* APIConstants.swift in Sources */,
 				F68945A92788455100F22187 /* BaseViewController.swift in Sources */,
 				F68945A52788455100F22187 /* AppDelegate.swift in Sources */,
 				F69CAA2F27897FB90035230D /* WelcomeViewController.swift in Sources */,
 				F68945A72788455100F22187 /* SceneDelegate.swift in Sources */,
+				F69CAA432789D3F00035230D /* UserSignInService.swift in Sources */,
 				F69CAA2B27897F800035230D /* SignUpViewController.swift in Sources */,
+				F69CAA3F2789D03B0035230D /* NetworkResult.swift in Sources */,
+				F69CAA412789D1D40035230D /* SignInResponseDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
