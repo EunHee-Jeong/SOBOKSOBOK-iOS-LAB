@@ -51,7 +51,7 @@ struct UserSignInService {
     private func judgeSignInStatus(by statusCode: Int, _ data: Data) -> NetworkResult<Any> {
         switch statusCode {
         case 200: return isValidLoginData(data: data)   // 성공
-        case 400: return .pathErr   // 클라이언트 오류
+        case 400: return isUsedPathErrData(data: data)   // 클라이언트 오류
         case 500: return .serverErr // 서버 오류
         default: return .networkFail
         }
@@ -62,5 +62,12 @@ struct UserSignInService {
         let decoder = JSONDecoder()
         guard let decodedData = try? decoder.decode(SignInResponseData.self, from: data) else {return .pathErr}
         return .success(decodedData)
+    }
+    
+    // 400번대 오류 다루는 함수
+    private func isUsedPathErrData(data: Data) -> NetworkResult<Any> {
+        let decoder = JSONDecoder()
+        guard let decodedData = try? decoder.decode(SignInResponseData.self, from: data) else {return .pathErr}
+        return .requestErr(decodedData)
     }
 }
