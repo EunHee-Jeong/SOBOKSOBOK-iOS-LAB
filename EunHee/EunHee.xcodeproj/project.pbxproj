@@ -13,6 +13,19 @@
 		F68945AE2788455300F22187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F68945AD2788455300F22187 /* Assets.xcassets */; };
 		F68945B12788455300F22187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F68945AF2788455300F22187 /* LaunchScreen.storyboard */; };
 		F68945BA278845A000F22187 /* EasyKit in Frameworks */ = {isa = PBXBuildFile; productRef = F68945B9278845A000F22187 /* EasyKit */; };
+		F69CAA2427897E360035230D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F69CAA2327897E360035230D /* Alamofire */; };
+		F69CAA2727897F730035230D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA2527897F730035230D /* SignInViewController.swift */; };
+		F69CAA2827897F730035230D /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA2627897F730035230D /* SignInViewController.xib */; };
+		F69CAA2B27897F800035230D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA2927897F800035230D /* SignUpViewController.swift */; };
+		F69CAA2C27897F800035230D /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA2A27897F800035230D /* SignUpViewController.xib */; };
+		F69CAA2F27897FB90035230D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA2D27897FB90035230D /* WelcomeViewController.swift */; };
+		F69CAA3027897FB90035230D /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA2E27897FB90035230D /* WelcomeViewController.xib */; };
+		F69CAA32278984780035230D /* SF-Pro-Display-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA31278984780035230D /* SF-Pro-Display-Regular.otf */; };
+		F69CAA34278989070035230D /* SF-Pro-Display-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F69CAA33278989070035230D /* SF-Pro-Display-Semibold.otf */; };
+		F69CAA3D2789CEE00035230D /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA3C2789CEE00035230D /* APIConstants.swift */; };
+		F69CAA3F2789D03B0035230D /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA3E2789D03B0035230D /* NetworkResult.swift */; };
+		F69CAA412789D1D40035230D /* SignInResponseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA402789D1D40035230D /* SignInResponseDataModel.swift */; };
+		F69CAA432789D3F00035230D /* UserSignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69CAA422789D3F00035230D /* UserSignInService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +36,18 @@
 		F68945AD2788455300F22187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F68945B02788455300F22187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F68945B22788455300F22187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69CAA2527897F730035230D /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		F69CAA2627897F730035230D /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		F69CAA2927897F800035230D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		F69CAA2A27897F800035230D /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		F69CAA2D27897FB90035230D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F69CAA2E27897FB90035230D /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		F69CAA31278984780035230D /* SF-Pro-Display-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Regular.otf"; sourceTree = "<group>"; };
+		F69CAA33278989070035230D /* SF-Pro-Display-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Semibold.otf"; sourceTree = "<group>"; };
+		F69CAA3C2789CEE00035230D /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		F69CAA3E2789D03B0035230D /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		F69CAA402789D1D40035230D /* SignInResponseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInResponseDataModel.swift; sourceTree = "<group>"; };
+		F69CAA422789D3F00035230D /* UserSignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignInService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F68945BA278845A000F22187 /* EasyKit in Frameworks */,
+				F69CAA2427897E360035230D /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +85,7 @@
 				F68945BB2788462000F22187 /* Application */,
 				F68945BC2788464B00F22187 /* Presentation */,
 				F68945BE2788467E00F22187 /* Resource */,
+				F69CAA392789CE3C0035230D /* Service */,
 				F68945C0278846A900F22187 /* Supports */,
 			);
 			path = EunHee;
@@ -77,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				F68945BD2788465D00F22187 /* Common */,
+				F69CAA352789CDD00035230D /* Splash */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -93,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				F68945AF2788455300F22187 /* LaunchScreen.storyboard */,
+				F69CAA382789CE1E0035230D /* Font */,
 				F68945BF2788469A00F22187 /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -114,6 +143,63 @@
 			path = Supports;
 			sourceTree = "<group>";
 		};
+		F69CAA352789CDD00035230D /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				F69CAA362789CDF90035230D /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F69CAA362789CDF90035230D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F69CAA2527897F730035230D /* SignInViewController.swift */,
+				F69CAA2927897F800035230D /* SignUpViewController.swift */,
+				F69CAA2D27897FB90035230D /* WelcomeViewController.swift */,
+				F69CAA2627897F730035230D /* SignInViewController.xib */,
+				F69CAA2A27897F800035230D /* SignUpViewController.xib */,
+				F69CAA2E27897FB90035230D /* WelcomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F69CAA382789CE1E0035230D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F69CAA31278984780035230D /* SF-Pro-Display-Regular.otf */,
+				F69CAA33278989070035230D /* SF-Pro-Display-Semibold.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F69CAA392789CE3C0035230D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F69CAA3A2789CE550035230D /* Network */,
+				F69CAA3B2789CE5B0035230D /* Result */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F69CAA3A2789CE550035230D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F69CAA3C2789CEE00035230D /* APIConstants.swift */,
+				F69CAA422789D3F00035230D /* UserSignInService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F69CAA3B2789CE5B0035230D /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				F69CAA3E2789D03B0035230D /* NetworkResult.swift */,
+				F69CAA402789D1D40035230D /* SignInResponseDataModel.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +218,7 @@
 			name = EunHee;
 			packageProductDependencies = (
 				F68945B9278845A000F22187 /* EasyKit */,
+				F69CAA2327897E360035230D /* Alamofire */,
 			);
 			productName = EunHee;
 			productReference = F68945A12788455100F22187 /* EunHee.app */;
@@ -163,6 +250,7 @@
 			mainGroup = F68945982788455100F22187;
 			packageReferences = (
 				F68945B8278845A000F22187 /* XCRemoteSwiftPackageReference "EasyKit" */,
+				F69CAA2227897E360035230D /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = F68945A22788455100F22187 /* Products */;
 			projectDirPath = "";
@@ -178,7 +266,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69CAA3027897FB90035230D /* WelcomeViewController.xib in Resources */,
 				F68945B12788455300F22187 /* LaunchScreen.storyboard in Resources */,
+				F69CAA2827897F730035230D /* SignInViewController.xib in Resources */,
+				F69CAA34278989070035230D /* SF-Pro-Display-Semibold.otf in Resources */,
+				F69CAA2C27897F800035230D /* SignUpViewController.xib in Resources */,
+				F69CAA32278984780035230D /* SF-Pro-Display-Regular.otf in Resources */,
 				F68945AE2788455300F22187 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,9 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F69CAA2727897F730035230D /* SignInViewController.swift in Sources */,
+				F69CAA3D2789CEE00035230D /* APIConstants.swift in Sources */,
 				F68945A92788455100F22187 /* BaseViewController.swift in Sources */,
 				F68945A52788455100F22187 /* AppDelegate.swift in Sources */,
+				F69CAA2F27897FB90035230D /* WelcomeViewController.swift in Sources */,
 				F68945A72788455100F22187 /* SceneDelegate.swift in Sources */,
+				F69CAA432789D3F00035230D /* UserSignInService.swift in Sources */,
+				F69CAA2B27897F800035230D /* SignUpViewController.swift in Sources */,
+				F69CAA3F2789D03B0035230D /* NetworkResult.swift in Sources */,
+				F69CAA412789D1D40035230D /* SignInResponseDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +438,6 @@
 				INFOPLIST_FILE = EunHee/Supports/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -366,7 +465,6 @@
 				INFOPLIST_FILE = EunHee/Supports/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -414,6 +512,14 @@
 				kind = branch;
 			};
 		};
+		F69CAA2227897E360035230D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -421,6 +527,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = F68945B8278845A000F22187 /* XCRemoteSwiftPackageReference "EasyKit" */;
 			productName = EasyKit;
+		};
+		F69CAA2327897E360035230D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F69CAA2227897E360035230D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
